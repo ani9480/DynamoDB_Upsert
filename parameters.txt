@@ -1,0 +1,30 @@
+{
+"DEV" : {"Table NAme":
+		{
+		"dbcon": {"dbname": , "host": , "port": , "user": , "password": },
+		"bucket" : "S3 bucket name",
+		"pe": "col_list as strings,#xtraceid",
+		"table":"Table NAme",
+		"ean" : { "#xtraceid": "another col" }
+		},		
+		
+		"Table NAme":
+		{
+		"dbcon": {"dbname": , "host": , "port": , "user": , "password": },
+		"bucket" : "S3 bucket name",
+		"pe": "col_list as strings",
+		"table":"Table NAme"
+		},
+		
+		"Table NAme":
+		{
+		"dbcon": {"dbname": , "host": , "port": , "user": , "password": },
+		"bucket" : "S3 bucket name",
+		"pe": "col_list as strings",
+		"table":"Table NAme",
+		"dynamo_col" : "primary key of dynamo db",
+		"db_col" : "primary key of redhsift",
+		"schematable": "schema.table"
+		}
+		}
+}
